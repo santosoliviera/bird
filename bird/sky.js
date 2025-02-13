@@ -1,5 +1,5 @@
 const sky = {
-    color:"cyan",
+    color:"orange",
     width: 320,
     height: 400,
     draw(){
