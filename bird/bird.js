@@ -2,10 +2,10 @@ class Bird{
     x= 100;
     y= 100;
     size= 25;
-    velocity=0.5;
+    velocity=0.6;
     gravity=0.2;
     flapVelocity=5;
-    life=1;
+    life=3;
     #image;
     imageFile="./img/bird.png";
     flapSoundFile="./wav/flap.wav";
