@@ -26,7 +26,7 @@ class Bird{
         this.hitSound.src = this.hitSoundFile;
     }
     draw(){
-        //eCtx.drawImage(this.#image, this.x, this.y,this.size,this.size); 
+        //**eCtx.drawImage(this.image, this.x, this.y,this.size,this.size); 
         let i = Math.round(this.frames/5);
         eCtx.drawImage(this.#image,180*i,0,140,145,this.x,this.y,this.size,this.size);      
         this.y+=this.velocity;
@@ -36,7 +36,7 @@ class Bird{
             this.frames = 0     
     }
     flap(){
-        this.velocity=-3;
+        this.velocity= 6;
         this.flapSound.play();
     }
     die(){
